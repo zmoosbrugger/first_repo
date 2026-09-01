@@ -17,6 +17,7 @@
 #       echo "File $1 does not exist."
 #    fi
 #fi
+
 echo "$1" #argument is what is passed in the command line after the script name, so if you run ./argument.sh hello, then $1 is hello
 
 if [[ $1 ]]
@@ -35,3 +36,4 @@ then
 else
     echo "This is not a text file, please provide a file name."
 fi
+#making a small change 
